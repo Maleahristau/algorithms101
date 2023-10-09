@@ -1,0 +1,6 @@
+# Assignment Two:
+### Show your understanding of Fisher-Yates Shuffle Algorithm.
+
+The Fisher-Yates Shuffle is a random permutation of a finite sequence. The idea is that out of a list of numbers you select a 
+random number crossing it off the list until you have all of those former numbers all listed once in a new random order. The 
+idea was to arange these numbers so the list wasn't bias at all.
