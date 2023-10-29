@@ -1,0 +1,39 @@
+### Compare These Two Similar Concepts:
+##Array vs. Maps
+First lets define each!
+Array: An array is a collection of 
+elements of the same data type 
+stored in contiguous memory 
+locations. Arrays data is 
+collected and stored in a listed 
+system and are limted to the space 
+given when creating them.
+/* int[] numbers = new int[5]; // Creating an integer array with a size of 5
+numbers[0] = 10;
+numbers[1] = 20;
+int thirdNumber = numbers[2]; // Accessing the third element (index 2)
+/*
+Maps:A Map (in c#) is a collection
+of key-value pairs. Each element 
+in a map has a unique key 
+associated with it. Maps are able 
+to grow and shrink freely and the 
+values housed like this are able 
+to be called by keys associated 
+with them.
+/* Dictionary<string, int> ageMap = new Dictionary<string, int>();
+ageMap["Alice"] = 25;
+ageMap["Bob"] = 30;
+int alicesAge = ageMap["Alice"]; // Accessing the value associated with the key "Alice"
+/*
+
+#How do they compare then?
+
+Arrays are used for storing elements of the same data type in a fixed-size collection, and you access elements by their index. Maps (dictionaries) are used to store key-value pairs where each key is unique, and you access values using their keys. Maps are more flexible in terms of size and allow you to associate data with specific keys, which makes them suitable for various data storage and retrieval scenarios.
+
+##Stack vs. Queue
+
+Include information about:
+How does each work?
+How are they different from each other?
+When is one more efficient than another?
